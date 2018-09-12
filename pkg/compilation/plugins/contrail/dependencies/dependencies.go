@@ -113,4 +113,7 @@ var ReactionMap = map[string]map[string][]string{
 		"VirtualNetwork": {},
 		"LogicalRouter":  {},
 	},
+	"Youtube": {
+		"Self": {},
+	},
 }

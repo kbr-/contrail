@@ -172,3 +172,6 @@
       - logical_router
     virtual_network:
     logical_router:
+
+  youtube:
+    self:

@@ -1,0 +1,20 @@
+api_style: contrail
+extends:
+- base
+id: youtube
+parents:
+  project:
+    description: Asd
+    operations: CRUD
+    presence: optional
+plural: youtubes
+prefix: /
+schema:
+  properties:
+    url:
+      presence: optional
+      operations: CRUD
+      description: Url
+      type: string
+  required: []
+  type: object
